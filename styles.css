@@ -1,0 +1,60 @@
+.container{
+    width:1000px;
+    height:500px;
+    display: flex;
+    border-radius: 20px;
+}
+.left-container{
+    border: 5px solid rgb(77, 28, 28);
+    width:50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(232, 7, 7);
+}
+.right-container{
+    border: 5px solid rgb(77, 28, 28);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(232, 7, 7);
+}
+#pokeball-pic{
+    width:300px;
+}
+
+#iChooseU{
+    background-color: rgb(24, 24, 164);
+    height:40px;
+    width:100px;
+    border-radius: 20px;
+    color:white;
+    border:none;
+}
+
+#stats{
+    background-color: rgb(97, 53, 53);
+    color:white;
+    height:200px;
+    width:60%;
+}
+
+.typing-screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px;
+    gap:10px;
+}
+
+.divider{
+    background-color: rgb(77, 28, 28);
+    height:470px;
+    width:20px;
+    margin-top: 15px;
+}
